@@ -1,0 +1,2 @@
+bldlog-*.txt
+install*.txt
