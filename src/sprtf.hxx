@@ -54,7 +54,9 @@ extern char * get_log_file( void );
 extern int MCDECL sprtf( const char *pf, ... );
 #define M_MAX_SPRTF 2048
 extern int direct_out_it( char *cp );
+#ifdef _WIN32
 extern int MCDECL wsprtf( PWSTR pf, ... );
+#endif
 
 /////////////////////////////////////////
 // Buffer pool

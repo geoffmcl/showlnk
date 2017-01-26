@@ -1,7 +1,9 @@
 // sl_utils.hxx
 #ifndef _SL_UTILS_HXX_
 #define _SL_UTILS_HXX_
+#ifdef _WIN32
 #include <Windows.h>
+#endif
 #include <string>
 #include <vector>
 typedef std::vector<std::string> vSTG;

@@ -1,16 +1,22 @@
 // showlnk.cxx
+#ifdef _WIN32
 #ifndef _CRT_SECURE_NO_WARNINGS
 #define _CRT_SECURE_NO_WARNINGS
 #endif
 #pragma warning( disable : 4995 )
+#endif
 
 #include <sys/types.h>
 #include <sys/stat.h>
+
+#ifdef _WIN32
 #include <windows.h>
 #include <atlstr.h>
 #include <shobjidl.h>
 #include <shlguid.h> 
 #include <strsafe.h>
+#endif
+
 #include <stdint.h>
 #include <vector>
 #include <string>
