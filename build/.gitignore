@@ -12,3 +12,5 @@ install_manifest.txt
 install_manifest_rel.txt
 *.dir/*
 *.sln
+Makefile
+
